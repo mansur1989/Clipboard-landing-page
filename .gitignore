@@ -48,3 +48,11 @@ Thumbs.db
 *.mov
 *.wmv
 
+README-template.md
+.gitignore
+style-guide.md
+design/active-states.jpg
+design/desktop-design.jpg
+design/desktop-preview.jpg
+design/mobile-design.jpg
+README.md
