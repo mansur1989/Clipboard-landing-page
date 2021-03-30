@@ -1,0 +1,22 @@
+/* layout itmes */
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* may be add some margin here TODO:margin: ; */
+}
+
+.container {
+  width: 690px;
+}
+/* style component */
+.btn {
+  background-color: hsl(171, 66%, 44%);
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+}
