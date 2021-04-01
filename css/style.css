@@ -32,7 +32,10 @@ footer {
 .header-section p {
   margin-bottom: 45px;
 }
-
+.logo {
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
 .second-header {
   margin-top: 70px;
 }
@@ -97,6 +100,9 @@ footer {
   list-style: none;
   padding: 8px;
   margin-right: 100px;
+}
+footer .logo {
+  margin: 8px;
 }
 .logo img {
   width: 50px;
