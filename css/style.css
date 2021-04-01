@@ -19,6 +19,11 @@ body {
 
   color: hsl(201, 11%, 66%);
 }
+footer {
+  height: 100px;
+  background-color: hsl(201, 11%, 66%);
+  color: hsl(210, 10%, 33%);
+}
 /* Header section */
 .header-section {
   background: url("/images/bg-header-desktop.png") center center/cover;
@@ -27,10 +32,72 @@ body {
 .header-section p {
   margin-bottom: 45px;
 }
-.logo {
-  margin-bottom: 20px;
-  margin-top: 70px;
-}
+
 .second-header {
   margin-top: 70px;
+}
+.feature {
+  margin: 55px 0;
+  width: 450px;
+  margin-left: 100px;
+  line-height: 1.7;
+}
+#access {
+  margin-top: 150px;
+  line-height: 1.7;
+}
+#access h2 {
+  margin-bottom: 10px;
+}
+
+#access p {
+  margin-bottom: 55px;
+}
+
+.tools {
+  display: flex;
+  align-content: center;
+  flex: 1;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.tools-item {
+  text-align: center;
+  width: 20%;
+  line-height: 2;
+  padding: 15px;
+  height: 100%;
+}
+.tools-item img {
+  width: 50px;
+  margin-bottom: 30px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 30px 100px;
+}
+.bottom-section {
+  margin: 80px auto;
+}
+.bottom-section h2,
+.bottom-section p,
+.bottom-section a {
+  margin-bottom: 65px;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.container ul li {
+  list-style: none;
+  padding: 8px;
+  margin-right: 100px;
+}
+.logo img {
+  width: 50px;
 }
